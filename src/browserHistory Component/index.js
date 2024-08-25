@@ -98,7 +98,6 @@ class BrowseHistory extends Component {
     const deleteHistory = id => {
       const updatedList = historyList.filter(eachitem => eachitem.id !== id)
       this.setState({historyList: updatedList})
-      console.log(this.state)
     }
     return (
       <div className="app-container">
